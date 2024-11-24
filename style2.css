@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.header-parent {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+header {
+    background-color: #F3D7B7;
+}
+
+ul li a {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    color: #333333;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* birinchi section */
+
+
+h1 {
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 700;
+
+    
+}
+
+.bir-text {
+    width: 372px;
+    height: 85.37px;
+    padding-top: 74px;
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+
+
+}
+
+
+
+#birinchi {
+    background-color: #F3D7B7;
+    height: 720px;
+}
+
+
+.bir-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 120px;
+    
+}
+
+.coffee {
+    position: absolute;
+
+    right: -100px;
+    top: -100px;
+}
+
+.korova {
+    position: absolute;
+    top: -200px;
+    transform: rotate(-18deg);
+    left: -660px;
+
+    z-index: 5;
+}
+
+.bir-right {
+    position: relative;
+}
+
+/* birinchi */
+/* ikki */
+.right h2{
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56.25px;
+    color: black;
+}
+.right p{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #333333;
+    width: 646.39px;
+    height: 207.49px;
+    padding-top: 64px;
+}
+.parent{
+    display:flex ;
+    justify-content: space-between;
+    padding-top: 160px;
+    padding-bottom: 216px;
+}
+#ikki{
+    background-color: rgba(244,244,235,255);    
+}
+/* uch  */
+#uch h2{
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58.59px;
+    width: 397px;
+    height: 118px;
+    color: #FFFFFF;
+    margin-top: 109px;
+    margin-bottom: 28px;
+}
+#uch p{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 639px;
+    height: 150px;
+    color: #FFFFFF;
+    margin-bottom: 105px;
+}
+.parent3{
+    display: flex;
+    justify-content:space-between ;
+}
+#uch{
+    background-color:#C99B67;
+    
+}
+.uch-right{
+    position: relative;
+}
+#uch img{
+    position: absolute;
+    top: -150px;
+    right: -80px;
+}
+/* uch  */
+/* footer */
+.footer-parent {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+header {
+    background-color: #F3D7B7;
+}
+
+ul li a {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    color: #333333;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.rasmlar{
+    display: flex;
+    gap: 30px;
+}
+footer{
+    background-color: #F3D7B7;
+    height: 160px;
+    align-items: center;
+    display: flex;
+}
